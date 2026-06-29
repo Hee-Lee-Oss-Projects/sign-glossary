@@ -1,0 +1,33 @@
+{
+  "id": "sign-glossary-partner-001",
+  "title": "Secure a Deaf-led partner + fluent-Deaf reviewers; pick language/region; co-design term list",
+  "project": "sign-glossary",
+  "type": "research",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["accessibility", "deaf-community", "language", "open-culture"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "sign-glossary aims to publish an open, Deaf-reviewed glossary of signs for key terms in a named sign language and region. Sign languages are distinct languages with regional variation, and the project's first principle is Deaf leadership ('nothing about us without us'): signs must be created and approved by the Deaf community that uses the language, never produced about them by hearing or non-signing contributors. No Deaf-led partner, sign language, region, or term list has been secured yet, so this task is a blocking prerequisite for all capture and publication work.",
+  "objective": "Confirm a Deaf-led partner organisation or community group, with fluent-Deaf review capacity, for one named sign language and region, and co-design an initial target term set, content-license choice, and cultural norms with them.",
+  "acceptanceCriteria": [
+    "Identifies and confirms at least one Deaf-led partner/community group for a NAMED sign language and region, with fluent-Deaf review capacity (>=1 reviewer, target >=2).",
+    "Co-designs an initial target term set with the partner to serve as the coverage denominator.",
+    "Confirms the partner's preferred content license (CC-BY-4.0, CC-BY-SA-4.0, or CC0-1.0) and documents cultural norms (e.g., name-signs, forms to avoid).",
+    "States the time-box and explicit kill/pivot criteria if no Deaf-led partner is secured (pivot to next candidate community/language, or stop; never proceed hearing-led).",
+    "On success, records that capture/publish tasks scoped to this language/region may flip verifiedNeed to true."
+  ],
+  "resources": [
+    "C:\\code\\elyos\\planning\\projects\\sign-glossary\\PLAN.md",
+    "C:\\code\\elyos\\docs\\good-deed-definition.md",
+    "C:\\code\\elyos\\CLAUDE.md",
+    "Principle: 'Nothing About Us Without Us' (disability self-determination)"
+  ],
+  "output": "A partnership & scope document naming the Deaf-led partner, the sign language + region, the fluent-Deaf reviewers and their credential basis, the co-designed initial term set, the chosen content license, documented cultural norms, and the time-box + kill/pivot criteria.",
+  "requestor": "jdev1977",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

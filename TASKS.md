@@ -4,7 +4,7 @@
 
 Backlog for the `sign-glossary` good-deed project. Read alongside `PLAN.md` (same directory).
 
-## How these tasks map to Elyos
+## How these tasks map to Hee-Lee Oss
 
 Every task here becomes a **Task JSON** validated by `packages/schema/src/schemas.ts`. Field mapping:
 
@@ -259,9 +259,9 @@ is not required.
     "On success, records that capture/publish tasks scoped to this language/region may flip verifiedNeed to true."
   ],
   "resources": [
-    "C:\\code\\elyos\\planning\\projects\\sign-glossary\\PLAN.md",
-    "C:\\code\\elyos\\docs\\good-deed-definition.md",
-    "C:\\code\\elyos\\CLAUDE.md",
+    "C:\\code\\hee-lee-oss\\planning\\projects\\sign-glossary\\PLAN.md",
+    "C:\\code\\hee-lee-oss\\docs\\good-deed-definition.md",
+    "C:\\code\\hee-lee-oss\\CLAUDE.md",
     "Principle: 'Nothing About Us Without Us' (disability self-determination)"
   ],
   "output": "A partnership & scope document naming the Deaf-led partner, the sign language + region, the fluent-Deaf reviewers and their credential basis, the co-designed initial term set, the chosen content license, documented cultural norms, and the time-box + kill/pivot criteria.",

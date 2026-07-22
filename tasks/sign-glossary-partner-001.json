@@ -21,9 +21,9 @@
     "On success, records that capture/publish tasks scoped to this language/region may flip verifiedNeed to true."
   ],
   "resources": [
-    "C:\\code\\elyos\\planning\\projects\\sign-glossary\\PLAN.md",
-    "C:\\code\\elyos\\docs\\good-deed-definition.md",
-    "C:\\code\\elyos\\CLAUDE.md",
+    "C:\\code\\hee-lee-oss\\planning\\projects\\sign-glossary\\PLAN.md",
+    "C:\\code\\hee-lee-oss\\docs\\good-deed-definition.md",
+    "C:\\code\\hee-lee-oss\\CLAUDE.md",
     "Principle: 'Nothing About Us Without Us' (disability self-determination)"
   ],
   "output": "A partnership & scope document naming the Deaf-led partner, the sign language + region, the fluent-Deaf reviewers and their credential basis, the co-designed initial term set, the chosen content license, documented cultural norms, and the time-box + kill/pivot criteria.",

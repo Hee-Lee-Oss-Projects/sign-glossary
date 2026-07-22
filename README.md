@@ -6,7 +6,7 @@ For most of the world's [sign languages](#references), there is no free, openly-
 
 **Definition of shipped:** Reviewed sign glossary adopted by Deaf orgs/educators.
 
-This is an **Elyos** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Platform: https://github.com/jdev1977/elyos
+This is an **Hee-Lee Oss** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Platform: https://github.com/jdev1977/hee-lee-oss
 
 ## Plan
 - [PLAN.md](./PLAN.md) — robust enterprise plan (vision, architecture, roadmap, risks; includes an applied-improvements appendix + review sign-off)
@@ -15,8 +15,8 @@ This is an **Elyos** good-deed project. Contributors pull a task, do it with the
 
 ## Contribute
 ```bash
-elyos browse
-elyos next --repo Elyos-Projects/sign-glossary --no-fork
+hee-lee-oss browse
+hee-lee-oss next --repo Hee-Lee-Oss-Projects/sign-glossary --no-fork
 ```
 
 ## Licensing & review

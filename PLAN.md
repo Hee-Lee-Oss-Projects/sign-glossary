@@ -211,7 +211,7 @@ co-designed term set — inventing one now would be dishonest.
 This is a **content/data pipeline** project with supporting **adapter/tooling code**, run in the
 **donated lane**: a human runs their own agent interactively to draft scaffolding (metadata,
 definitions, notation, tooling); Deaf signers perform/illustrate the signs; Deaf reviewers approve;
-Elyos prepares the per-entry task workspace and opens the publication PR. **The CLI never invokes or
+Hee-Lee Oss prepares the per-entry task workspace and opens the publication PR. **The CLI never invokes or
 authenticates a coding agent and never runs headless**, and **no AI session ever produces a sign.**
 
 **Pipeline (per entry)**
@@ -252,7 +252,7 @@ authenticates a coding agent and never runs headless**, and **no AI session ever
   attribution-preference capture, **revocation/takedown policy + SLA**, and the consent-record schema.
 - `pipeline/` — term intake, domain/risk classification, dedup/variant check, claim/locking, and the
   per-entry record schema.
-- `adapters/` (Elyos-conformant; all host/source-specific logic lives here) —
+- `adapters/` (Hee-Lee Oss-conformant; all host/source-specific logic lives here) —
   - `adapters/open-dataset/` — publish entry metadata + media to the open dataset repo + durable media
     host (with checksums, license, attribution, consent ref, provenance).
   - `adapters/lexeme/` — optional contribution to Wikidata lexemes / an open sign lexicon **where the
@@ -516,7 +516,7 @@ entry = one task**, drawn from a co-designed, milestone-scoped batch.
   per preference, retaining revocable consent over their likeness.
 - **Beneficiary validators:** Deaf users, learners, interpreters, and parents of deaf children who
   confirm batches are accurate and usable.
-- **Conflict-of-interest / veto:** per the Elyos good-deed governance, edge cases and any
+- **Conflict-of-interest / veto:** per the Hee-Lee Oss good-deed governance, edge cases and any
   for-profit-capture concern go to the board + community against the published COI/veto checklist.
 
 ## Dependencies & integrations
@@ -531,7 +531,7 @@ entry = one task**, drawn from a co-designed, milestone-scoped batch.
 - **Notation references** — gloss conventions, HamNoSys, SignWriting (used per their terms).
 - **Open / royalty-free media tooling** — encoders for VP9/AV1/WebM, captioning (WebVTT), SVG/PNG.
 - **License metadata** — SPDX identifiers; CC license deeds.
-- **Elyos platform pieces** — `packages/cli` (task workspace + PR prep, donated lane), the Task
+- **Hee-Lee Oss platform pieces** — `packages/cli` (task workspace + PR prep, donated lane), the Task
   schema (`packages/schema`), and `adapters/` for all host-specific code. The CLI never runs an agent
   headless and never authenticates a coding agent.
 
@@ -562,7 +562,7 @@ entry = one task**, drawn from a co-designed, milestone-scoped batch.
   license violations. Adapters also write to external open hosts (dataset repo, lexeme endpoints).
 - **Secrets handling.** Any host API tokens (repo, media host, lexeme endpoints) are supplied via the
   human's own environment, never written into logs, receipts, records, or committed files (per
-  CLAUDE.md). Donated lane: the human authenticates with their own account; Elyos stores no agent
+  CLAUDE.md). Donated lane: the human authenticates with their own account; Hee-Lee Oss stores no agent
   credentials.
 - **PII / biometric data.** Sign video is identifying, biometric-class PII: access-controlled in
   pre-publication storage, minimised, never used for identification/recognition/unrelated model
@@ -572,14 +572,14 @@ entry = one task**, drawn from a co-designed, milestone-scoped batch.
   publication rights; revocation must propagate to takedown within SLA; withdrawn entries are removed
   from distribution and marked `withdrawn` (downstream-copy limit disclosed honestly).
 - **Abuse / misuse prevention.** No mass unreviewed publication; honour host policy/rate limits;
-  every entry is Deaf-reviewed and consented. Refuse and flag (per Elyos guardrails) any request to
+  every entry is Deaf-reviewed and consented. Refuse and flag (per Hee-Lee Oss guardrails) any request to
   publish non-open or non-consented media, to synthesise signs, to identify individuals from video,
   or to ship high-stakes signs without expert review.
 
 ## Sustainability & maintenance
 
 - **Community ownership.** The durable outcome is an openly-licensed, Deaf-reviewed corpus the
-  community can keep, mirror, and extend independent of Elyos. The goal is to hand stewardship toward
+  community can keep, mirror, and extend independent of Hee-Lee Oss. The goal is to hand stewardship toward
   the Deaf partner over time, not to make the community depend on us.
 - **Outcome tracking.** A lightweight dashboard tracks published-and-live counts, approval rate,
   coverage per language/region, community accuracy challenges, and **takedown-SLA adherence** — so
@@ -617,11 +617,11 @@ entry = one task**, drawn from a co-designed, milestone-scoped batch.
 
 ## References
 
-- `C:\code\elyos\CLAUDE.md` — Elyos work rules, lanes, quality bar, refusal guardrails.
-- `C:\code\elyos\docs\good-deed-definition.md` — good-deed criteria and risk tiers.
-- `C:\code\elyos\packages\schema\src\schemas.ts` — Task JSON schema.
-- `C:\code\elyos\planning\ROADMAP.md` — portfolio roadmap (sign-glossary, Track 4).
-- `C:\code\elyos\planning\projects\a11y-alttext-commons\PLAN.md` — sibling accessibility pipeline (pattern reference).
+- `C:\code\hee-lee-oss\CLAUDE.md` — Hee-Lee Oss work rules, lanes, quality bar, refusal guardrails.
+- `C:\code\hee-lee-oss\docs\good-deed-definition.md` — good-deed criteria and risk tiers.
+- `C:\code\hee-lee-oss\packages\schema\src\schemas.ts` — Task JSON schema.
+- `C:\code\hee-lee-oss\planning\ROADMAP.md` — portfolio roadmap (sign-glossary, Track 4).
+- `C:\code\hee-lee-oss\planning\projects\a11y-alttext-commons\PLAN.md` — sibling accessibility pipeline (pattern reference).
 - Creative Commons license suite (CC-BY, CC-BY-SA, CC0) and Public Domain.
 - Notation systems: glossing conventions, HamNoSys, SignWriting.
 - Wikidata Lexemes (optional open lexicon target) and its community policy.
@@ -689,7 +689,7 @@ sections above** (not aspirational). Each sharpens correctness, enforceability, 
 
 ## Review sign-off
 
-A completeness + correctness pass against the Elyos quality bar and the PLAN spec. Issues found in
+A completeness + correctness pass against the Hee-Lee Oss quality bar and the PLAN spec. Issues found in
 review were fixed in-line above; this section records the verification.
 
 **Completeness.** All 17 required H2 sections are present and ordered per the spec. Metadata header
